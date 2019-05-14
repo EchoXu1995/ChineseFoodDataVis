@@ -1,0 +1,428 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    background-color:rgba(255, 255, 255, 0.77);
+    color:#606060;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 800px; /*max width*/
+    margin:0 auto 0 auto;  /*center the element*/
+}
+
+h1{  /*Home page title*/
+    margin-top:0px;
+    margin-bottom:100px;
+    font-family:'Volkhov', serif;
+    font-size:240%;
+    font-weight:300px;
+    color:white;
+    /*text-transform:uppercase;*/
+    letter-spacing:2px;
+    word-spacing:4px;
+    line-height: 1.4;
+}
+
+h2{ /*Blog title*/
+    font-family: 'Volkhov', serif;
+    font-size:25px;
+    font-weight:600;
+    margin-top:80px;
+    margin-bottom:30px;
+    letter-spacing:1px;
+    color:black;
+    /*text-transform:uppercase;*/
+}
+
+h3{ /*Chart title*/
+    font-family: 'Lato', 'Arial', sans-serif;;
+    font-size:20px;
+    font-weight:400;
+    margin-top:50px;
+    margin-bottom:30px;
+    letter-spacing:0.8px;
+    color:#414141;
+    
+}
+
+h6{  /*角标*/
+    font-weight:100;
+    letter-spacing:0.5px;
+    color:#606060;
+    margin:5px;
+}
+
+p{
+    margin:0px;
+    letter-spacing:0.5px;
+    line-height: 30px;
+    font-weight:100;
+    color:#414141;
+    
+}
+
+/* ----------------------------------------------- */
+/* BUTTON */
+/* ----------------------------------------------- */
+
+.btn:link,
+.btn:visited{
+    display:inline;
+    padding:10px 30px;
+    font-weight:400;
+    text-decoration:none;
+    border-radius:5px;
+    
+}
+
+/*full button normal*/
+.btn-full:link,
+.btn-full:visited{
+    border:2px solid #EA7D57;
+    color:#EA7D57; /*text color*/
+    float:right;
+    margin-top:10px;
+    margin-right:100px;
+    margin-bottom:25px;
+}
+
+/*full button hover*/
+.btn-full:hover,
+.btn-full:active{
+    color:white;
+    background-color: #ef835e;
+    border:2px solid #ef835e;
+}
+
+.btn-click:link,
+.btn-click:visited{
+    background-color:#EA7D57;
+    border:2px solid #EA7D57;
+    color:white; /*text color*/
+    float:right;
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+/*full button hover*/
+.btn-click:hover,
+.btn-click:active{
+    color:white;
+    background-color: #ef835e;
+    border:2px solid #ef835e;
+}
+
+/*ghost button normalr*/
+.btn-ghost:link,
+.btn-ghost:visited{
+    border:2px solid #EA7D57;
+    color:#EA7D57; /*text color*/
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+/*ghost button hover*/
+.btn-ghost:hover,
+.btn-ghost:active{
+    color:white;
+    background-color: #ef835e;
+    border:2px solid #ef835e;
+}
+
+/*home button*/
+.home-page-icon:link,
+.home-page-icon:visited{
+    display:inline;
+    position:fixed;
+    padding:5px;
+    font-size:80%;
+    font-weight:400;
+    color:#908c8c;
+    text-decoration:none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.home-page-icon:hover,
+.home-page-icon:active{
+    border-bottom: 2px solid #EA7D57;
+}
+
+/*game button*/
+#buttons {
+    margin-top:20px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+
+button{
+    border: none;
+    border-radius:5px;
+    background-color: #d1d1d1;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 4px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.trueRegional:hover{
+    background-color: #e0e0e0;
+}
+.trueCommon:hover{
+    background-color: #e0e0e0;
+} 
+.faulse:hover{
+    background-color: #e0e0e0;
+} 
+.truePrecious:hover{
+    background-color: #e0e0e0;
+}
+
+/* ----------------------------------------------- */
+/* DIALOGE */
+/* ----------------------------------------------- */
+
+.dialog{
+    margin:30px 100px;
+    vertical-align:top;
+}
+
+.avatar{
+    vertical-align:top;
+    display:none;
+}
+.avatar img{
+    width:70px;
+    height:70px;
+    border:none;
+    border-radius:200px;
+}
+
+.dialog-content{
+    text-align: left;
+    list-style-type: none;
+    padding-left:20px;
+}
+
+.dialog-content-time{
+    font-size:60%;
+    font-weight:100;   
+    letter-spacing:0.5px;
+    color:#AAA;
+    margin:7px;
+    display:none;
+}
+
+.loading{
+    width:10px;
+    padding:10px 30px;
+    opacity:0.5;
+    display:none;
+}
+
+.dialog-content-list{
+    display:inline-block;
+    background-color: #f2f2f2;
+    border-radius:5px;
+    padding:10px 30px;
+    margin:7px;
+    font-size:80%;
+    font-weight:400;
+    color:#414141;
+    line-height: 25px; 
+    letter-spacing: 0.4px;
+}
+
+
+}
+/* ----------------------------------------------- */
+/* color-legend */
+/* ----------------------------------------------- */
+
+.color-legend {
+    text-align: left;
+}
+.color-square {
+    width:20px; 
+    height:10px;
+    margin-left:20px;
+}
+
+#common-food {
+    background-color: #CCCC99;
+}
+
+#riginal-food {
+    background-color: #EA7D57;
+}
+
+#precious-food {
+    background-color: #F29F4E;
+}
+
+#not-food {
+    background-color: darkgrey;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------------------------------------------------ */
+
+header{
+    background-image: linear-gradient(rgba(113, 65, 40, 0.3), rgba(113, 65, 40, 0.3)), url(img/hero.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    
+}
+.hero-text-box {
+    position:absolute;
+    width:1140px;
+    top:5%;
+    left:3%;    /*Home Page button position*/
+}
+.subtitle{
+    margin-top:100px;
+    margin-bottom:10px;
+    font-weight:400;
+    color:white;
+    font-size:20px;
+    letter-spacing: 1.5px;
+   
+}
+/* ----------------------------------------------- */
+/* SECTION01 */
+/* ----------------------------------------------- */
+.dialog-img {
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    box-shadow: 5px 5px 5px #dddddd;
+}
+
+/* ----------------------------------------------- */
+/* GAME */
+/* ----------------------------------------------- */
+#section02{
+    background-color:#EEE;
+    margin:0px 0px 50px 0;
+    display:none;
+}
+#option-num{
+    margin-bottom:15px;
+    margin-right:5px;
+}
+#chicken-chart{
+    width:100%;
+    margin-bottom:30px;
+}
+
+/* ----------------------------------------------- */
+/* CHART */
+/* ----------------------------------------------- */
+.chart img{
+    width:100%;
+}
+.chart {
+    width:100%;
+}
+/* ----------------------------------------------- */
+/* SECTION03 */
+/* ----------------------------------------------- */
+#section03{
+    display:none;
+}
+#reasons{
+    display:none;
+}
+#main-point{
+    padding:100px 20px;
+    background-color: #f2f2f2;
+}
+#climax{
+    color:#EA7D57;
+    font-size:120%
+}
+.dont-eat-diagram{
+    width:100%;
+    margin:10px 20px;
+}
+
+.dont-eat-img{
+    width:80%;
+}
+
+.dont-eat-name{
+    font-family: 'Lato', 'Arial', sans-serif;;
+    font-size:17px;
+    font-weight:400;
+    letter-spacing:0.8px;
+    color:#414141;
+    transition: border-bottom 0.2s;
+    padding:10px 0px;
+    margin:10px 15px;
+    transition: border-bottom 0.4s;
+}
+
+.dont-eat-name:hover,
+.dont-eat-name:active{
+    border-bottom: 2px solid #EA7D57;
+}
+
+.dont-eat-kind{
+
+    padding:5px 20px 0px 20px;
+    font-size:20%;
+    font-weight:100;
+    letter-spacing:0.5px;
+    color:#606060;
+    line-height:17px;
+    text-align: left;
+    vertical-align: text-top;
+    opacity: 0;
+    margin:5px 20px 0px 20px;
+    transition: opacity 0.4s
+}
+
+.animation-box{
+    
+}
+/* ----------------------------------------------- */
+/* SECTION04 */
+/* ----------------------------------------------- */
+#section04{
+    display:none;
+}
+
+/* ----------------------------------------------- */
+/* SECTION05 */
+/* ----------------------------------------------- */
+#section05{
+    display:none;
+}
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+footer{
+    background-color:#f2f2f2;
+    padding:50px 0px;
+}
